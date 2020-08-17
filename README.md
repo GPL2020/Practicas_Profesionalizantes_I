@@ -1,2 +1,2 @@
-# Practicas_Profesionalizantes_I
-Repositorio para entregar los trabajos prácticos
+# __Practicas Profesionalizantes I__
+_Repositorio para entregar los trabajos prácticos_
