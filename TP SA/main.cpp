@@ -45,7 +45,7 @@ int menu() {
 
     do {
         cout << "1) Tomar asistencia" << endl
-             << "2) Ver asistencias (por Alumno)" << endl
+             << "2) Ver asistencias (por Alumno/a)" << endl
              << "3) Ver asistencias (por Fecha)" << endl
              << "4) Salir" << endl
              << "Opcion: ";
