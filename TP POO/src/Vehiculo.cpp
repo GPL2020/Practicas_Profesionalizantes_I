@@ -1,4 +1,4 @@
-#include "Vehiculo.h"
+#include "..\include\Vehiculo.h"
 
 Vehiculo::Vehiculo() {
     //ctor

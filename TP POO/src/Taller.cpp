@@ -1,4 +1,4 @@
-#include "Taller.h"
+#include "..\include\Taller.h"
 
 Taller::Taller() {
 
