@@ -1,16 +1,16 @@
 #ifndef TALLER_H
 #define TALLER_H
 #include "Vehiculo.h"
+#include "ListaVehiculos.h"
 
 class Taller {
     private:
-        int max_vehiculos;
         int num_vehiculos;
-        //list lista_de_vehiculos;
+        ListaVehiculos vehiculosTaller;
 
     public:
         Taller();
-        Taller(int maxVehiculos, int numVehiculos);
+        Taller(int numVehiculos);
         virtual ~Taller();
         void meter(Vehiculo* v);
         void arreglarVehiculos();

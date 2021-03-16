@@ -1,4 +1,4 @@
-#include "..\include\Moto.h"
+#include "../include/Moto.h"
 
 Moto::Moto(string color, string marca, int cilindrada) {
     //cosas que deban nacer con un coche
@@ -11,14 +11,23 @@ Moto::~Moto() {
     //cosas que deban morir con un coche
 }
 
+void Moto::getColor() {
+    cout << m_color;
+}
+
+void Moto::getMarca() {
+    cout << m_marca;
+}
+
 void Moto::arrancar() {
-    //algo para arrancar, cout << "estoy en marcha" << endl;
+    cout << "Estoy en marcha" << endl;
 }
 
 void Moto::parar() {
-    //algo para arrancar, cout << "estoy detenide" << endl;
+    cout << "Estoy detenida" << endl;
 }
 
 void Moto::repostar() {
     //algo para arrancar, cout << "me detuve a repostar combustible" << endl;
+    cout << "Me detuve a repostar combustible" << endl;
 }

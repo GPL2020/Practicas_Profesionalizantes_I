@@ -1,4 +1,4 @@
-#include "..\include\Coche.h"
+#include "../include/Coche.h"
 
 Coche::Coche(string color, string marca, int motor) {
     //cosas que deban nacer con un coche
@@ -11,14 +11,22 @@ Coche::~Coche() {
     //cosas que deban morir con un coche
 }
 
+void Coche::getColor() {
+    cout << m_color;
+}
+
+void Coche::getMarca() {
+    cout << m_marca;
+}
+
 void Coche::arrancar() {
-    //algo para arrancar, cout << "estoy en marcha" << endl;
+    cout << "Estoy en marcha" << endl;
 }
 
 void Coche::parar() {
-    //algo para arrancar, cout << "estoy detenide" << endl;
+    cout << "Estoy detenido" << endl;
 }
 
 void Coche::repostar() {
-    //algo para arrancar, cout << "me detuve a repostar combustible" << endl;
+    cout << "Me detuve a repostar combustible" << endl;
 }

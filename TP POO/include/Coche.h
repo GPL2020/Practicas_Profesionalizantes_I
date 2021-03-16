@@ -10,6 +10,8 @@ class Coche: public Vehiculo {
     public:
         Coche(string color, string marca, int motor);
         virtual ~Coche();
+        void getColor();
+        void getMarca();
         void arrancar();
         void parar();
         void repostar();
