@@ -1,4 +1,4 @@
-#include "StudentXCourseManager.h"
+#include "../include/StudentXCourseManager.h"
 
 StudentXCourseManager::StudentXCourseManager() {
     //ctor

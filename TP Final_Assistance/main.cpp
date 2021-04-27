@@ -1,9 +1,9 @@
 #include <iostream>
-#include "../include/Course.h"
-#include "../include/CourseMapper.h"
-#include "../include/Student.h"
-#include "../include/StudentMapper.h"
-#include "../include/AssistanceManager.h"
+#include "./include/Course.h"
+#include "./include/CourseMapper.h"
+#include "./include/Student.h"
+#include "./include/StudentMapper.h"
+#include "./include/AssistanceManager.h"
 #include <iostream>
 
 using namespace std;
