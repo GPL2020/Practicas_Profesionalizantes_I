@@ -1,4 +1,4 @@
-1 Actualizacion Practicas Profesionalizantes I
+1 Practicas Profesionalizantes I
 2 Ingles Tecnico I
 3 Analisis Matematico I
 4 Algebra
@@ -7,7 +7,7 @@
 7 Arquitectura de Computadoras I
 8 Sistemas y Organizaciones
 9 Practicas Profesionalizantes II
-10 Actualizacion Ingles Tecnico I
+10 Ingles Tecnico II
 11 Analisis Matematico II
 12 Estadistica
 13 Algoritmos y Estructura de Datos II
