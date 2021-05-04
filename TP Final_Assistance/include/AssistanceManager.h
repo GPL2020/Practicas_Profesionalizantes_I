@@ -13,6 +13,8 @@ class AssistanceManager {
     public:
         AssistanceManager(int _idCourse);
         void takeAttendance(string date);
+        void showAssistance(string date);
+        int getCourseID();
         string getCourseName();
         virtual ~AssistanceManager();
 };

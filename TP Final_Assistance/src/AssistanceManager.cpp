@@ -3,7 +3,7 @@
 #include <vector>
 
 /* Cuando se crea un objeto AssistanceManager:
-   LLeno el vector de objetos Student con los estudiante del curso
+   LLeno el vector de objetos Student con los estudiantes del curso
    obteniendo los códigos del archivo StudentXCourse.txt,
    y la información de los archivos Student.txt y Course.txt respectivamente
 */
@@ -29,7 +29,7 @@ AssistanceManager::AssistanceManager(int _idCourse) {
         }
     }
     else
-        cout << "Error al abrir el archivo Courst.txt" << endl;
+        cout << "Error al abrir el archivo Course.txt" << endl;
 
     fileCourse.close();
 
@@ -54,7 +54,6 @@ AssistanceManager::AssistanceManager(int _idCourse) {
 
     fileSXC.close();
 
-    // Ya obtuve todos los ids de los estudiantes pertenecientes al curso
 
     /* Tercero, Cargo en el vector allStudents todos los alumnos del archivo Student.txt
        Para no tener que abrir y cerrar el archivo para obtener los datos
@@ -87,11 +86,6 @@ AssistanceManager::AssistanceManager(int _idCourse) {
             if (studentsID[i] == allStudents[j]->getIdentifier())
                students.push_back(allStudents[j]);
     }
-
-    cout << "(Contenido del vector de Objetos Student)" << endl << endl;
-    cout << "Curso: " << courseName << endl;
-    for (unsigned int i = 0; i < students.size(); i++)
-        cout << students[i]->getIdentifier() << " " << students[i]->getSurname() << ", " << students[i]->getName() << endl;
 }
 
 // Formato date = AAAA/MM/DD
@@ -121,6 +115,13 @@ void AssistanceManager::takeAttendance(string date) {
         }
 
     fileAssistance.close();
+}
+
+void AssistanceManager::showAssistance(string date) {
+}
+
+int AssistanceManager::getCourseID() {
+    return courseID;
 }
 
 string AssistanceManager::getCourseName() {
